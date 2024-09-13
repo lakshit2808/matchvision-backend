@@ -15,7 +15,7 @@ MatchVision Backend
 
 # Streamlit Dashboard
 - URL: http://143.110.190.53:8501/
-- To keep the Streamlit app running even after you log out, you can use nohup: `nohup - streamlit run Dashboard.py --server.port 8501 --server.headless true --server.enableCORS false &`
+- To keep the Streamlit app running even after you log out, you can use nohup: `nohup streamlit run Dashboard.py --server.port 8501 --server.headless true --server.enableCORS false &`
 - `ps aux | grep streamlit`
 - `kill process_id`
 
